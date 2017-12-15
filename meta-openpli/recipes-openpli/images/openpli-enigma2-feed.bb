@@ -100,7 +100,6 @@ OPTIONAL_PACKAGES += " \
 	p7zip \
 	parted \
 	procps \
-	pyload \
 	python-ipaddress \
 	python-ntplib \
 	python-pip \
