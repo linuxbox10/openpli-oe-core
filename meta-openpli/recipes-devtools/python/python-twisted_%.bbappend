@@ -1,9 +1,12 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/python-twisted:"
 
+<<<<<<< HEAD
 SRC_URI += " \
     file://fix-writing-after-channel-is-closed.patch \
     "
 
+=======
+>>>>>>> upstream/zeus
 FILES_${PN}-src += " \
     ${libdir}/${PYTHON_DIR}/site-packages/twisted/*.py \
     ${libdir}/${PYTHON_DIR}/site-packages/twisted/*/*.py \
